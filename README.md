@@ -1,3 +1,5 @@
+[Demo Video](https://youtu.be/9MK5uk-2QJg)
+
 # Summary
 The verifyhash applet included in this custom BusyBox OS build checks for any tampering of BusyBox's binary by using hashing its own binary at /proc/self/exe and comparing that hash to a known "good" hash.
 SHA-512 is used as the hashing algorithm.
